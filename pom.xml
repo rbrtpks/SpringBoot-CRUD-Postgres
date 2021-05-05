@@ -8,11 +8,11 @@
 		<version>2.3.5.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.bezkoder</groupId>
-	<artifactId>spring-boot-jpa-postgresql</artifactId>
+	<groupId>com.crud</groupId>
+	<artifactId>spring-boot</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring-boot-jpa-postgresql</name>
-	<description>Spring Boot, PostgreSQL example with Maven, Spring JPA</description>
+	<name>spring-boot</name>
+	<description>Spring Boot, PostgreSQL with Maven, Spring JPA</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -33,6 +33,11 @@
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
 			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<optional>true</optional>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
